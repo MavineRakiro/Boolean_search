@@ -1,7 +1,7 @@
 import re
 import os
 
-raw = open('c:\\Users/hp/Desktop/Hello.txt' , 'r')
+raw = open('files/hello.txt' , 'r')
 content = raw.read()
 
 match = re.search(r'\b(the church)\b', content)
